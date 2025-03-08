@@ -1,9 +1,9 @@
 import { useState, useContext } from "react";
 import { LOGO_URL } from "../utils/constants";
-import { Link } from "react-router";
+import { useSelector } from "react-redux";
 import useOnlineStatus from "../utils/useOnlineStatus";
 import UserContext from "../utils/UserContext";
-import { useSelector } from "react-redux";
+import { Link } from "react-router";
 const Header = () => {
   // let btnLogin = "login";
 
@@ -46,10 +46,10 @@ const Header = () => {
           <button
             className="login"
             onClick={() => {
-              btnLogin === "login"
-                ? setBtnLogin("logout")
-                : setBtnLogin("login");
-              console.log(btnLogin);
+              btnLogin === "Login"
+                ? setBtnLogin("Logout")
+                : setBtnLogin("Login");
+              // console.log(btnLogin);
             }}
           >
             {btnLogin}

@@ -46,7 +46,6 @@ const Body = () => {
   //   }
 
   const {loggedInUser, setUserName} = useContext(UserContext) 
-
   return listOfRestaurent.length === 0 ? (
     <Shimmer />
   ) : (
@@ -55,6 +54,7 @@ const Body = () => {
         <div className="search m-4 p-4">
           <input
             type="text"
+            data-testid = "searchInput"
             className="border border-solid border-black"
             value={searchText}
             onChange={(e) => setSearchText(e.target.value)}
@@ -62,7 +62,7 @@ const Body = () => {
           <button
             className="mx-4 rounded-md bg-green-600 px-3 py-1 text-sm/6 font-semibold text-white shadow-xs hover:bg-green-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             onClick={() => {
-              console.log(searchText);
+              // console.log(searchText);
               const filteredRestaurent = listOfRestaurent.filter((res) =>
                 res.info.name.toLowerCase().includes(searchText.toLowerCase())
               );
@@ -81,7 +81,7 @@ const Body = () => {
                 (res) => res.info.avgRating > 4.5
               );
               setlistOfRestaurent(filteredList);
-              console.log(listOfRestaurent);
+              // console.log(listOfRestaurent);
             }}
           >
             Top Rated Restaurents

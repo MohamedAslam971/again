@@ -1,0 +1,95 @@
+{
+    "info": {
+        "id": "23678",
+        "name": "McDonald's",
+        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/9/18/edc568f6-6813-4f2d-a670-911788f1f04f_23678.jpg",
+        "locality": "5th Block",
+        "areaName": "Koramangala",
+        "costForTwo": "₹400 for two",
+        "cuisines": [
+            "Burgers",
+            "Beverages",
+            "Cafe",
+            "Desserts"
+        ],
+        "avgRating": 4.5,
+        "parentId": "630",
+        "avgRatingString": "4.5",
+        "totalRatingsString": "64K+",
+        "sla": {
+            "deliveryTime": 17,
+            "lastMileTravel": 1.3,
+            "serviceability": "SERVICEABLE",
+            "slaString": "15-20 mins",
+            "lastMileTravelString": "1.3 km",
+            "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+            "nextCloseTime": "2025-03-03 02:55:00",
+            "opened": true
+        },
+        "badges": {
+            "imageBadges": [
+                {
+                    "imageId": "bolt/Bolt%20Listing%20badge@3x.png",
+                    "description": "bolt!"
+                },
+                {
+                    "imageId": "Rxawards/_CATEGORY-Burger.png",
+                    "description": "Delivery!"
+                }
+            ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+            "entityBadges": {
+                "imageBased": {
+                    "badgeObject": [
+                        {
+                            "attributes": {
+                                "description": "bolt!",
+                                "imageId": "bolt/Bolt%20Listing%20badge@3x.png"
+                            }
+                        },
+                        {
+                            "attributes": {
+                                "description": "Delivery!",
+                                "imageId": "Rxawards/_CATEGORY-Burger.png"
+                            }
+                        }
+                    ]
+                },
+                "textBased": {},
+                "textExtendedBadges": {}
+            }
+        },
+        "aggregatedDiscountInfoV3": {
+            "header": "ITEMS",
+            "subHeader": "AT ₹49"
+        },
+        "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+                "lottie": {},
+                "video": {}
+            }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {},
+        "externalRatings": {
+            "aggregatedRating": {
+                "rating": "--"
+            }
+        },
+        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+    },
+    "analytics": {
+        "context": "seo-data-2b20441f-16bd-4d67-9d98-10268e4025ed"
+    },
+    "cta": {
+        "link": "https://www.swiggy.com/city/bangalore/mcdonalds-5th-block-koramangala-rest23678",
+        "type": "WEBLINK"
+    }
+}

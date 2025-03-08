@@ -3,13 +3,14 @@ import { CDN_URL } from "../utils/constants";
 import UserContext from "../utils/UserContext";
 const RestaurentCard = (props) => {
   const { resData } = props;
+  // console.log(resData);
   const { name, cuisines, avgRating, costForTwo, cloudinaryImageId } =
     resData?.info;
   const { deliveryTime } = resData.info.sla;
 
   const {loggedInUser}= useContext(UserContext); 
   return (
-    <div className="m-4 p-4 w-[250px] min-h-[350px] flex flex-col justify-between rounded-lg shadow-lg bg-orange-50 hover:bg-orange-200">
+    <div data-testid="resCard" className="m-4 p-4 w-[250px] min-h-[350px] flex flex-col justify-between rounded-lg shadow-lg bg-orange-50 hover:bg-orange-200">
       <img
         className="pic w-full h-32 object-cover rounded-lg"
         alt="pizza_pic"
